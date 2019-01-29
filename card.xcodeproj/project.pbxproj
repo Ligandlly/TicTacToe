@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E4137A8A21FEFBBB00AC9642 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4137A8921FEFBBB00AC9642 /* main.cpp */; };
+		E4137A9221FEFBD100AC9642 /* card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4137A9021FEFBD100AC9642 /* card.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E4137A8621FEFBBB00AC9642 /* card */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = card; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4137A8921FEFBBB00AC9642 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E4137A9021FEFBD100AC9642 /* card.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = card.cpp; sourceTree = "<group>"; };
+		E4137A9121FEFBD100AC9642 /* card.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = card.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		E4137A8821FEFBBB00AC9642 /* card */ = {
 			isa = PBXGroup;
 			children = (
+				E4137A9021FEFBD100AC9642 /* card.cpp */,
+				E4137A9121FEFBD100AC9642 /* card.hpp */,
 				E4137A8921FEFBBB00AC9642 /* main.cpp */,
 			);
 			path = card;
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4137A8A21FEFBBB00AC9642 /* main.cpp in Sources */,
+				E4137A9221FEFBD100AC9642 /* card.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
